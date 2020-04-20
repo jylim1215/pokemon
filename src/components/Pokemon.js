@@ -15,7 +15,7 @@ const Pokemon = ({ pokemonId }) => {
             // clean up - 고도의 상태나 생명 주기 관리가 필요할 때 사용
             // componentWillUnmount
         };
-    }, []);
+    }, [pokemonId]);
 
     useEffect(() => {
         console.log(pokemon);
